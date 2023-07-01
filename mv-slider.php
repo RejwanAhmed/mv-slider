@@ -60,7 +60,7 @@ if ( ! class_exists('MV_Slider') ) {
 
         public static function deactivate() {
             flush_rewrite_rules();
-            unregistter_post_type( 'mv-slider' );
+            unregister_post_type( 'mv-slider' );
         }
 
         public static function uninstall() {
